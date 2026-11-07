@@ -1,0 +1,267 @@
+{
+ "result": {
+  "dumps": "ninth",
+  "labels": {
+   "luna": "Luna k=4 plain, worst 20% one axis a call",
+   "haiku": "Haiku 5.5 k=4 labelled, worst 15% one axis a call",
+   "gemini": "Gemini 3.1 Flash-Lite k=6 plain, worst 25% one axis a call",
+   "jev": "Jev yes/no, 20 answers x 30-31 axes a request"
+  },
+  "weights": {
+   "gpt-5.6-luna": 0.3076923076923077,
+   "claude-haiku-5-5": 0.23076923076923078,
+   "gemini-3.1-flash-lite": 0.23076923076923078,
+   "jev-1.14.0": 0.23076923076923078
+  },
+  "sigma": {
+   "gpt-5.6-luna": 10.913783643834293,
+   "claude-haiku-5-5": 13.607372980602104,
+   "gemini-3.1-flash-lite": 8.66220452888688,
+   "jev-1.14.0": 2.1103034883338956
+  },
+  "best": "split: Haiku + Gemini + Jev",
+  "n_axes": 61,
+  "n_questions": 100,
+  "instructions": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "B": {
+   "questions": 200,
+   "axes": 2000,
+   "rejudge": 100
+  },
+  "seed": 20261107,
+  "variants": [
+   "s0_l25_raw",
+   "s0_l25_softK2",
+   "s0_l25_shear3",
+   "s0_l49_raw",
+   "s0_l49_softK2",
+   "s0_l49_shear3",
+   "s6_l25_raw",
+   "s6_l25_softK2",
+   "s6_l25_shear3",
+   "s6_l49_raw",
+   "s6_l49_softK2",
+   "s6_l49_shear3"
+  ],
+  "rows": [
+   {
+    "arm": "split: Haiku + Gemini + Jev",
+    "rho": 0.748785365030966,
+    "quality": 3.9806598056011557,
+    "d_vs_best": 0.0,
+    "d_se_q": 0.0,
+    "d_se_a": 0.0,
+    "d_se_r": 0.0,
+    "d_se_all": 0.0,
+    "se_q": 0.003333452644152595,
+    "se_a": 0.009115856504395036,
+    "se_r": 0.00023941953435732393,
+    "ninths": null,
+    "d9_vs_best": null
+   },
+   {
+    "arm": "split: all four",
+    "rho": 0.7456057133141775,
+    "quality": 3.9309058903315783,
+    "d_vs_best": -0.0031796517167885785,
+    "d_se_q": 0.0004568369409697471,
+    "d_se_a": 0.0010451744732475577,
+    "d_se_r": 0.00017557513199567188,
+    "d_se_all": 0.0011540867805924318,
+    "se_q": 0.0034657678777806106,
+    "se_a": 0.009278382159685485,
+    "se_r": 0.00020366788240809775,
+    "ninths": null,
+    "d9_vs_best": null
+   },
+   {
+    "arm": "split: Luna + Gemini + Jev",
+    "rho": 0.7438858320173267,
+    "quality": 3.904508711394882,
+    "d_vs_best": -0.004899533013639323,
+    "d_se_q": 0.0006290861255652504,
+    "d_se_a": 0.0014099494733416744,
+    "d_se_r": 0.00027702031197383663,
+    "d_se_all": 0.0015685812455850812,
+    "se_q": 0.003581923715056329,
+    "se_a": 0.009010677612811801,
+    "se_r": 0.00019744078294701766,
+    "ninths": null,
+    "d9_vs_best": null
+   },
+   {
+    "arm": "split: Luna + Haiku + Jev",
+    "rho": 0.743737146174219,
+    "quality": 3.902243282906094,
+    "d_vs_best": -0.005048218856747,
+    "d_se_q": 0.0006825918059081313,
+    "d_se_a": 0.0017454085771174586,
+    "d_se_r": 0.00025394718271233466,
+    "d_se_all": 0.0018912619718525637,
+    "se_q": 0.0037215754112247326,
+    "se_a": 0.009554746671836973,
+    "se_r": 0.000274879599921286,
+    "ninths": null,
+    "d9_vs_best": null
+   },
+   {
+    "arm": "split: Luna + Haiku + Gemini",
+    "rho": 0.7404353535853276,
+    "quality": 3.852604789646242,
+    "d_vs_best": -0.008350011445638406,
+    "d_se_q": 0.0005723844138739285,
+    "d_se_a": 0.001849050002605663,
+    "d_se_r": 0.00019900426601955764,
+    "d_se_all": 0.001945819243217567,
+    "se_q": 0.0033762370152704345,
+    "se_a": 0.009731751385196935,
+    "se_r": 0.0002485994341278063,
+    "ninths": null,
+    "d9_vs_best": null
+   },
+   {
+    "arm": "Jev alone, settled design",
+    "rho": 0.7380791521602406,
+    "quality": 3.817947323581474,
+    "d_vs_best": -0.010706212870725484,
+    "d_se_q": 0.001410595504137752,
+    "d_se_a": 0.004521434647482182,
+    "d_se_r": 0.00025824697244861784,
+    "d_se_all": 0.004743399882629003,
+    "se_q": 0.0038603670608035375,
+    "se_a": 0.01027606835603367,
+    "se_r": 0.0001802857714184361,
+    "ninths": null,
+    "d9_vs_best": null
+   },
+   {
+    "arm": "Haiku alone, settled design",
+    "rho": 0.7339987909359802,
+    "quality": 3.759381408523317,
+    "d_vs_best": -0.01478657409498585,
+    "d_se_q": 0.0009792232139930802,
+    "d_se_a": 0.0030513438486815987,
+    "d_se_r": 0.0004243292220310454,
+    "d_se_all": 0.003232589159540606,
+    "se_q": 0.003404122632265556,
+    "se_a": 0.010824091366227492,
+    "se_r": 0.0005546087843667606,
+    "ninths": null,
+    "d9_vs_best": null
+   },
+   {
+    "arm": "Gemini alone, settled design",
+    "rho": 0.7316558719100402,
+    "quality": 3.7265581591737296,
+    "d_vs_best": -0.01712949312092582,
+    "d_se_q": 0.0010129140083334463,
+    "d_se_a": 0.0029588460592609015,
+    "d_se_r": 0.0002993857809634975,
+    "d_se_all": 0.003141718739245291,
+    "se_q": 0.0030977010378960734,
+    "se_a": 0.00921947329428289,
+    "se_r": 0.0003247444950362394,
+    "ninths": null,
+    "d9_vs_best": null
+   },
+   {
+    "arm": "Luna alone, settled design",
+    "rho": 0.7250199606923583,
+    "quality": 3.636627598562606,
+    "d_vs_best": -0.023765404338607743,
+    "d_se_q": 0.0013470520823192984,
+    "d_se_a": 0.0033938097039011637,
+    "d_se_r": 0.0005672466371435076,
+    "d_se_all": 0.0036951674341124353,
+    "se_q": 0.003972470840718618,
+    "se_a": 0.010341732450158368,
+    "se_r": 0.00047845143943928256,
+    "ninths": null,
+    "d9_vs_best": null
+   }
+  ],
+  "drops": null
+ },
+ "_provenance": {
+  "schema_version": "1.0",
+  "produced_by": {
+   "cmd": "uv run python scripts/judge_response_error_bars.py --dumps ninth",
+   "git_sha": "405460c3f+dirty",
+   "author": "Roger Dearnaley",
+   "title": "error bars on the response-judging mixes, ninth dumps"
+  },
+  "produced_at": "2026-11-07T21:52:29+00:00",
+  "inputs": [
+   {
+    "dep_key": "producer_script",
+    "path": "scripts/judge_response_error_bars.py",
+    "fingerprint": "v1:2026-11-07T21:42:25+00:00@20664",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T21:42:25+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "axes_file",
+    "path": "scripts/tier_eval_axes.tsv",
+    "fingerprint": "v1:2026-11-02T20:37:02+00:00@3805",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-02T20:37:02+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "dump_luna",
+    "path": "roger/axis_judge_experiments/_tier_eval_scratch/settled61/luna.json.gz",
+    "fingerprint": "v1:2026-11-07T19:17:21+00:00@7832723",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T19:17:21+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "dump_haiku",
+    "path": "roger/axis_judge_experiments/_tier_eval_scratch/settled61/haiku.json.gz",
+    "fingerprint": "v1:2026-11-07T19:29:37+00:00@7323768",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T19:29:37+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "dump_gemini",
+    "path": "roger/axis_judge_experiments/_tier_eval_scratch/settled61/gemini.json.gz",
+    "fingerprint": "v1:2026-11-07T19:40:34+00:00@7070318",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T19:40:34+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "dump_jev",
+    "path": "roger/axis_judge_experiments/_tier_eval_scratch/settled61/jev.json.gz",
+    "fingerprint": "v1:2026-11-07T19:43:56+00:00@6819144",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T19:43:56+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "rejudge_noise",
+    "path": "roger/axis_judge_experiments/response_pareto/judge_response_rejudge_noise.json",
+    "fingerprint": "v1:2026-11-07T15:40:46+00:00@96706",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T15:40:46+00:00",
+    "extras": {}
+   }
+  ],
+  "inputs_sha256": "ec60b775103de6794b083951725e1343e484c8c8449c89add48e2257319586d7"
+ }
+}

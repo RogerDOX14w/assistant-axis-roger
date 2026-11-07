@@ -1,0 +1,516 @@
+{
+ "result": {
+  "config": {
+   "anchor_axes": [
+    "predator_vs_prey",
+    "relativist_vs_absolutist",
+    "guardian_vs_destroyer",
+    "honest_vs_dishonest",
+    "forgiving_vs_unforgiving",
+    "casual_vs_formal"
+   ],
+   "y": "quality",
+   "png": "judge_response_anchor6_quality.png"
+  },
+  "rows": [
+   {
+    "judge": "luna",
+    "design": "one axis a call",
+    "base": "from the ninth",
+    "base_coverage": 0.1111111111111111,
+    "base_rho_6": 0.7038929747690533,
+    "lift": 0.00940578722988754,
+    "s": 1.1942342571108397,
+    "predicted_all": 0.7204926461814938,
+    "measured_all": 0.723706938622021,
+    "implied_s": 1.7278289116035084
+   },
+   {
+    "judge": "luna",
+    "design": "one axis a call",
+    "base": "from the third",
+    "base_coverage": 0.3333333333333333,
+    "base_rho_6": 0.720024092135456,
+    "lift": 0.0,
+    "s": 1.1942342571108397,
+    "predicted_all": 0.7235920296950269,
+    "measured_all": 0.723706938622021,
+    "implied_s": 1.232695742148907
+   },
+   {
+    "judge": "luna",
+    "design": "settled",
+    "base": "from the ninth",
+    "base_coverage": 0.1111111111111111,
+    "base_rho_6": 0.7163444154086158,
+    "lift": 0.00940578722988754,
+    "s": 1.1942342571108397,
+    "predicted_all": 0.7353679013913015,
+    "measured_all": 0.7369143738941265,
+    "implied_s": 1.3862604879195612
+   },
+   {
+    "judge": "luna",
+    "design": "settled",
+    "base": "from the third",
+    "base_coverage": 0.3333333333333333,
+    "base_rho_6": 0.7352202598668706,
+    "lift": 0.0,
+    "s": 1.1942342571108397,
+    "predicted_all": 0.7396506312870488,
+    "measured_all": 0.7369143738941265,
+    "implied_s": 0.4566590055150887
+   },
+   {
+    "judge": "haiku",
+    "design": "one axis a call",
+    "base": "from the ninth",
+    "base_coverage": 0.1111111111111111,
+    "base_rho_6": 0.7200104192883484,
+    "lift": 0.004850137191794927,
+    "s": 1.3038155416830588,
+    "predicted_all": 0.7334398128846422,
+    "measured_all": 0.7379102641367944,
+    "implied_s": 1.9832035382740252
+   },
+   {
+    "judge": "haiku",
+    "design": "one axis a call",
+    "base": "from the third",
+    "base_coverage": 0.3333333333333333,
+    "base_rho_6": 0.7330254139556401,
+    "lift": 0.0,
+    "s": 1.3038155416830588,
+    "predicted_all": 0.7363872028629678,
+    "measured_all": 0.7379102641367944,
+    "implied_s": 1.8945102624081382
+   },
+   {
+    "judge": "gemini",
+    "design": "one axis a call",
+    "base": "from the ninth",
+    "base_coverage": 0.1111111111111111,
+    "base_rho_6": 0.7214953762152159,
+    "lift": 0.00856294995247253,
+    "s": 1.043489338291426,
+    "predicted_all": 0.7356546455692499,
+    "measured_all": null
+   },
+   {
+    "judge": "gemini",
+    "design": "one axis a call",
+    "base": "from the third",
+    "base_coverage": 0.3333333333333333,
+    "base_rho_6": 0.7349168105744828,
+    "lift": 0.0,
+    "s": 1.043489338291426,
+    "predicted_all": 0.7375737281278519,
+    "measured_all": null
+   },
+   {
+    "judge": "gemini",
+    "design": "settled",
+    "base": "from the ninth",
+    "base_coverage": 0.1111111111111111,
+    "base_rho_6": 0.7295098283390338,
+    "lift": 0.00856294995247253,
+    "s": 1.043489338291426,
+    "predicted_all": 0.7443006235665002,
+    "measured_all": null
+   },
+   {
+    "judge": "gemini",
+    "design": "settled",
+    "base": "from the third",
+    "base_coverage": 0.3333333333333333,
+    "base_rho_6": 0.7432805097900128,
+    "lift": 0.0,
+    "s": 1.043489338291426,
+    "predicted_all": 0.7460906843345546,
+    "measured_all": null
+   },
+   {
+    "judge": "jev",
+    "design": "settled",
+    "base": "from the ninth",
+    "base_coverage": 0.1111111111111111,
+    "base_rho_6": 0.7374508986409146,
+    "lift": 0.009183522275242571,
+    "s": 0.9351976867136681,
+    "predicted_all": 0.7520033862077032,
+    "measured_all": 0.7517352476904632,
+    "implied_s": 0.8884917559756377
+   }
+  ],
+  "curves": {
+   "luna|one axis a call": {
+    "measured": {
+     "0.1111111111111111": 0.7168678920546302,
+     "0.2222222222222222": 0.7208711424196634,
+     "0.3333333333333333": 0.7220494816433844,
+     "0.6666666666666666": 0.7232264815673806,
+     "1.0": 0.723706938622021
+    },
+    "from the ninth": {
+     "0.1111111111111111": 0.7132987619989408,
+     "0.2222222222222222": 0.7173229704938382,
+     "0.3333333333333333": 0.718677100609768,
+     "0.6666666666666666": 0.7200376785151383,
+     "1.0": 0.7204926461814938
+    },
+    "from the third": {
+     "0.3333333333333333": 0.720024092135456,
+     "0.6666666666666666": 0.7226958829483774,
+     "1.0": 0.7235920296950269
+    },
+    "base_points": {
+     "from the ninth": [
+      0.1111111111111111,
+      0.7038929747690533
+     ],
+     "from the third": [
+      0.3333333333333333,
+      0.720024092135456
+     ]
+    },
+    "calibration": {
+     "delta9": 0.00940578722988754,
+     "ratio": 1.0142510876034774,
+     "s": 1.1942342571108397,
+     "judges": [
+      "luna"
+     ]
+    },
+    "detail": ""
+   },
+   "luna|settled": {
+    "measured": {
+     "0.1111111111111111": 0.7264521900348512,
+     "0.2222222222222222": 0.7323571741204509,
+     "0.3333333333333333": 0.7343143162332799,
+     "0.6666666666666666": 0.7361967288570922,
+     "1.0": 0.7369143738941265
+    },
+    "from the ninth": {
+     "0.1111111111111111": 0.7257502026385033,
+     "0.2222222222222222": 0.7311209346857945,
+     "0.3333333333333333": 0.7329334885675584,
+     "0.6666666666666666": 0.7347573913269161,
+     "1.0": 0.7353679013913015
+    },
+    "from the third": {
+     "0.3333333333333333": 0.7352202598668706,
+     "0.6666666666666666": 0.7385367537729169,
+     "1.0": 0.7396506312870488
+    },
+    "base_points": {
+     "from the ninth": [
+      0.1111111111111111,
+      0.7163444154086158
+     ],
+     "from the third": [
+      0.3333333333333333,
+      0.7352202598668706
+     ]
+    },
+    "calibration": {
+     "delta9": 0.00940578722988754,
+     "ratio": 1.0142510876034774,
+     "s": 1.1942342571108397,
+     "judges": [
+      "luna"
+     ]
+    },
+    "detail": "k=4, worst 20% one axis a call"
+   },
+   "haiku|one axis a call": {
+    "measured": {
+     "0.1111111111111111": 0.7298265769327056,
+     "0.2222222222222222": 0.7344919959550404,
+     "0.3333333333333333": 0.7359914539961556,
+     "0.6666666666666666": 0.737450810644324,
+     "1.0": 0.7379102641367944
+    },
+    "from the ninth": {
+     "0.1111111111111111": 0.7248605564801434,
+     "0.2222222222222222": 0.729657742628225,
+     "0.3333333333333333": 0.7312731116994754,
+     "0.6666666666666666": 0.732896750192378,
+     "1.0": 0.7334398128846422
+    },
+    "from the third": {
+     "0.3333333333333333": 0.7330254139556401,
+     "0.6666666666666666": 0.7355434308003117,
+     "1.0": 0.7363872028629678
+    },
+    "base_points": {
+     "from the ninth": [
+      0.1111111111111111,
+      0.7200104192883484
+     ],
+     "from the third": [
+      0.3333333333333333,
+      0.7330254139556401
+     ]
+    },
+    "calibration": {
+     "delta9": 0.004850137191794927,
+     "ratio": 1.0091904413907953,
+     "s": 1.3038155416830588,
+     "judges": [
+      "haiku"
+     ]
+    },
+    "detail": ""
+   },
+   "haiku|settled": {
+    "measured": {
+     "0.1111111111111111": 0.7315686523613177,
+     "0.2222222222222222": 0.7366700212172835,
+     "0.3333333333333333": 0.7384781946746766,
+     "0.6666666666666666": 0.7401749073596288,
+     "1.0": 0.7408524123881373
+    },
+    "base_points": {},
+    "calibration": {
+     "delta9": 0.004850137191794927,
+     "ratio": 1.0091904413907953,
+     "s": 1.3038155416830588,
+     "judges": [
+      "haiku"
+     ]
+    },
+    "detail": "k=2, worst 10% one axis a call"
+   },
+   "gemini|one axis a call": {
+    "measured": {},
+    "from the ninth": {
+     "0.1111111111111111": 0.7300583261676884,
+     "0.2222222222222222": 0.7331911241615049,
+     "0.3333333333333333": 0.7342440103727886,
+     "0.6666666666666666": 0.7353012562538814,
+     "1.0": 0.7356546455692499
+    },
+    "from the third": {
+     "0.3333333333333333": 0.7349168105744828,
+     "0.6666666666666666": 0.7369069105480125,
+     "1.0": 0.7375737281278519
+    },
+    "base_points": {
+     "from the ninth": [
+      0.1111111111111111,
+      0.7214953762152159
+     ],
+     "from the third": [
+      0.3333333333333333,
+      0.7349168105744828
+     ]
+    },
+    "calibration": {
+     "delta9": 0.00856294995247253,
+     "ratio": 1.0119559020935625,
+     "s": 1.043489338291426,
+     "judges": [
+      "gemini"
+     ]
+    },
+    "detail": ""
+   },
+   "gemini|settled": {
+    "measured": {},
+    "from the ninth": {
+     "0.1111111111111111": 0.7380727782915063,
+     "0.2222222222222222": 0.7415574107096687,
+     "0.3333333333333333": 0.7427295080740609,
+     "0.6666666666666666": 0.7439069488544571,
+     "1.0": 0.7443006235665002
+    },
+    "from the third": {
+     "0.3333333333333333": 0.7432805097900128,
+     "0.6666666666666666": 0.745385277928322,
+     "1.0": 0.7460906843345546
+    },
+    "base_points": {
+     "from the ninth": [
+      0.1111111111111111,
+      0.7295098283390338
+     ],
+     "from the third": [
+      0.3333333333333333,
+      0.7432805097900128
+     ]
+    },
+    "calibration": {
+     "delta9": 0.00856294995247253,
+     "ratio": 1.0119559020935625,
+     "s": 1.043489338291426,
+     "judges": [
+      "gemini"
+     ]
+    },
+    "detail": "k=6, worst 25% one axis a call"
+   },
+   "jev|settled": {
+    "measured": {
+     "0.1111111111111111": 0.7469637513394153,
+     "0.2222222222222222": 0.7498548784126111,
+     "0.3333333333333333": 0.7506723258017405,
+     "0.6666666666666666": 0.7514487191374687,
+     "1.0": 0.7517352476904632
+    },
+    "from the ninth": {
+     "0.1111111111111111": 0.7466344209161571,
+     "0.2222222222222222": 0.7496392710837468,
+     "0.3333333333333333": 0.7506495416096304,
+     "0.6666666666666666": 0.751664191121502,
+     "1.0": 0.7520033862077032
+    },
+    "base_points": {
+     "from the ninth": [
+      0.1111111111111111,
+      0.7374508986409146
+     ]
+    },
+    "calibration": {
+     "delta9": 0.009183522275242571,
+     "ratio": 1.0184008694907674,
+     "s": 0.9351976867136681,
+     "judges": [
+      "jev"
+     ]
+    },
+    "detail": "20 answers x 5-6 axes a request (the anchor's shape; production 20 x 30-31)"
+   }
+  }
+ },
+ "_provenance": {
+  "schema_version": "1.0",
+  "produced_by": {
+   "cmd": "uv run python scripts/judge_response_anchor.py --output_dir roger/axis_judge_experiments/response_pareto --y quality",
+   "git_sha": "9b2570515+dirty",
+   "author": "Roger Dearnaley",
+   "title": "Response judging, the six-axis anchor: measured at every coverage against the ninth's and the third's extrapolations"
+  },
+  "produced_at": "2026-11-07T21:39:30+00:00",
+  "inputs": [
+   {
+    "dep_key": "axes_file",
+    "path": "scripts/tier_eval_axes.tsv",
+    "fingerprint": "v1:2026-11-02T20:37:02+00:00@3805",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-02T20:37:02+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "anchor_axes_file",
+    "path": "scripts/tier_eval_axes_full6.tsv",
+    "fingerprint": "v1:2026-11-06T17:35:43+00:00@658",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-06T17:35:43+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "luna_ninth",
+    "path": "roger/axis_judge_experiments/response_pareto/judge_response_pareto_61.json",
+    "fingerprint": "v1:2026-11-07T19:17:25+00:00@2380131",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T19:17:25+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "luna_third",
+    "path": "roger/axis_judge_experiments/response_pareto/judge_response_pareto_61_luna3.json",
+    "fingerprint": "v1:2026-11-07T19:59:10+00:00@752339",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T19:59:10+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "luna_anchor",
+    "path": "roger/axis_judge_experiments/response_pareto/judge_response_pareto_61_luna_all6.json",
+    "fingerprint": "v1:2026-11-06T20:37:04+00:00@101463",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-06T20:37:04+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "haiku_ninth",
+    "path": "roger/axis_judge_experiments/response_pareto/judge_response_pareto_61_haiku.json",
+    "fingerprint": "v1:2026-11-07T19:29:39+00:00@2001778",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T19:29:39+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "haiku_third",
+    "path": "roger/axis_judge_experiments/response_pareto/judge_response_pareto_61_haiku3.json",
+    "fingerprint": "v1:2026-11-07T20:09:20+00:00@931025",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T20:09:20+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "haiku_anchor",
+    "path": "roger/axis_judge_experiments/response_pareto/judge_response_pareto_61_haiku_all6.json",
+    "fingerprint": "v1:2026-11-06T19:14:50+00:00@102056",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-06T19:14:50+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "gemini_ninth",
+    "path": "roger/axis_judge_experiments/response_pareto/judge_response_pareto_61_gemini.json",
+    "fingerprint": "v1:2026-11-07T19:40:37+00:00@2118264",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T19:40:37+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "gemini_third",
+    "path": "roger/axis_judge_experiments/response_pareto/judge_response_pareto_61_gemini3.json",
+    "fingerprint": "v1:2026-11-07T20:16:20+00:00@655899",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T20:16:20+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "jev_ninth",
+    "path": "roger/axis_judge_experiments/response_pareto/judge_response_pareto_61_jev.json",
+    "fingerprint": "v1:2026-11-07T19:48:32+00:00@1454047",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T19:48:32+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "jev_third",
+    "path": "roger/axis_judge_experiments/response_pareto/judge_response_pareto_61_jev.json",
+    "fingerprint": "v1:2026-11-07T19:48:32+00:00@1454047",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-07T19:48:32+00:00",
+    "extras": {}
+   },
+   {
+    "dep_key": "jev_anchor",
+    "path": "roger/axis_judge_experiments/response_pareto/judge_response_pareto_61_jev_all6.json",
+    "fingerprint": "v1:2026-11-06T19:13:12+00:00@21956",
+    "kind": "file",
+    "dataset_id": null,
+    "last_modified_at": "2026-11-06T19:13:12+00:00",
+    "extras": {}
+   }
+  ],
+  "inputs_sha256": "27980c5f0b55715cd5bf22ff2e3875bd36e8a30692fde09a1f3c9e2a59a2b24f"
+ }
+}
